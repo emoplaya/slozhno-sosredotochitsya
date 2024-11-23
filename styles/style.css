@@ -333,7 +333,7 @@
   }
 
   .header {
-    margin-block-end: var(--tel-gap, 50px);
+    margin-block-end: 20px;
     padding-block-start: var(--container-padding-mobile, 10px);
     padding-inline-start: var(--container-padding-mobile, 10px);
     padding-inline-end: var(--container-padding-mobile, 10px);
@@ -344,7 +344,8 @@
   }
 
   .header__title {
-    margin-inline-start: 10px;
+    margin-inline-start: 1px;
+    font-size: 116px;
   }
 
   .header__text {

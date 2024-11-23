@@ -63,4 +63,27 @@
   .header__decoration {
     display: block;
   }
+
+  .header__decoration {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: var(--accent-color);
+    line-height: 1.39;
+    font-weight: 400;
+    text-transform: uppercase;
+    top: 22px;
+    right: 29px;
+  }
+  .header__decoration::after {
+    display: block;
+    content: "";
+    width: 9px;
+    height: 9px;
+    color: var(--accent-color);
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    box-shadow: 0 0 4px 2px #ff0070;
+    margin-inline-start: 10px;
+  }
 }
