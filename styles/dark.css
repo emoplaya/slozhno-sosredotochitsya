@@ -58,10 +58,11 @@
     --nav-color: #ff0070;
     --header-logo-color: #db00ff;
     --footer-logo-color: #db00ff;
-    --background-image: url("../images/cover-image-dark.png");
+    --background-image: url("");
   }
-  .header__decoration {
-    display: block;
+
+  .page {
+    background-color: var(--main-bg-color);
   }
 
   .header__decoration {
