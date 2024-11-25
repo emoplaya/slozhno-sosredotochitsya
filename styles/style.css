@@ -293,9 +293,6 @@ article {
 
 .gallery__grid {
   grid-template-columns: repeat(3, 1fr);
-}
-
-.gallery__grid {
   margin-block-start: 20px;
   display: grid;
   gap: 20px;
@@ -357,11 +354,13 @@ article {
   .header__title {
     font-size: 120px;
   }
+
   .header__theme-menu {
     margin-top: -20px;
     justify-self: end;
     align-self: center;
   }
+
   .header__theme-menu-list {
     flex-direction: column;
     gap: 10px;
@@ -389,21 +388,28 @@ article {
 @media (width < 768px) {
   .header__title {
     font-size: 120px;
+    margin-inline-start: 1px;
+    margin-block-start: -10px;
+    font-size: 116px;
   }
+
   .header__theme-menu {
     margin-top: -20px;
     justify-self: end;
     align-self: center;
   }
+
   .header__theme-menu-list {
     flex-direction: column;
     gap: 10px;
   }
+
   .content {
     gap: var(--tel-gap, 50px);
     padding-inline-end: var(--container-padding-mobile, 10px);
     padding-inline-start: var(--container-padding-mobile, 10px);
   }
+
   .section.why {
     display: flex;
     flex-direction: column;
@@ -414,6 +420,7 @@ article {
     flex-direction: column;
     gap: 20px;
   }
+
   .header {
     margin-block-end: 20px;
     padding-block-start: var(--container-padding-mobile, 10px);
@@ -423,12 +430,6 @@ article {
 
   .gallery {
     margin-block-end: var(--tel-gap, 50px);
-  }
-
-  .header__title {
-    margin-inline-start: 1px;
-    margin-block-start: -10px;
-    font-size: 116px;
   }
 
   .header__text {
@@ -493,12 +494,14 @@ article {
   .gallery__grid-item:nth-child(3) {
     grid-row-start: span 1;
   }
+
   .footer {
     margin-block-start: -10px;
     padding-inline-end: var(--container-padding-mobile, 10px);
     padding-inline-start: var(--container-padding-mobile, 10px);
     padding-block-end: var(--container-padding-mobile, 10px);
   }
+
   .footer__title {
     margin-block-start: 19px;
     font-size: 116px;
