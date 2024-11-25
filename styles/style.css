@@ -387,7 +387,6 @@ article {
 
 @media (width < 768px) {
   .header__title {
-    font-size: 120px;
     margin-inline-start: 1px;
     margin-block-start: -10px;
     font-size: 116px;
