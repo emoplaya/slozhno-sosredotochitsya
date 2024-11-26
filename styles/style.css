@@ -204,33 +204,9 @@ article {
   margin-left: 25%;
 }
 
-.theme_dark .header__decoration {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  color: var(--accent-color);
-  line-height: 1.39;
-  font-weight: 400;
-  text-transform: uppercase;
-  top: 22px;
-  right: 29px;
-}
-
-.theme_dark .header__decoration::after {
-  display: block;
-  content: "";
-  width: 9px;
-  height: 9px;
-  color: var(--accent-color);
-  background-color: var(--accent-color);
-  border-radius: 50%;
-  box-shadow: 0 0 4px 2px #ff0070;
-  margin-inline-start: 10px;
-}
-
 .header__decoration {
   position: absolute;
-  display: flex;
+  display: var(--display-decoration, flex);
   align-items: center;
   color: var(--accent-color);
   line-height: 1.39;
@@ -269,6 +245,9 @@ article {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.what .section-title {
+  width: 315px;
+}
 /*КАК КОНЦЕНТРИРОВАТЬСЯ ЛУЧШЕ*/
 
 .how {
@@ -448,7 +427,7 @@ article {
     bottom: 10px;
   }
 
-  .theme_dark .header__decoration {
+  .header__decoration {
     top: 11px;
     right: 19px;
   }
@@ -464,10 +443,6 @@ article {
 
   .what .article-list {
     grid-template-columns: 1fr;
-  }
-
-  .focus-reducers__title {
-    width: 100%;
   }
 
   .how {

@@ -20,6 +20,7 @@
   --button-hover: 1px solid rgba(255, 0, 112, 0.4);
   --font-family-base: "IBM Plex mono", sans-serif;
   --background-image: url("../images/cover-image-dark.png");
+  --display-decoration: flex;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,5 +35,6 @@
     --footer-logo-color: #db00ff;
     --button-hover: 1px solid rgba(255, 0, 112, 0.4);
     --background-image: url("../images/cover-image-dark.png");
+    --display-decoration: flex;
   }
 }
